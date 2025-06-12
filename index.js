@@ -82,7 +82,9 @@ const jsonfile = {
   readFile,
   readFileSync,
   writeFile,
-  writeFileSync
+  writeFileSync,
+  write: writeFileSync,
+  read: readFileSync,
 }
 
 module.exports = jsonfile
